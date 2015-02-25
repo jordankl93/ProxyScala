@@ -4,8 +4,6 @@
  * and open the template in the editor.
  */
 import java.util._
-import java.text.DateFormat
-import java.text.DateFormat._
 import java.math._
 
 trait ScalaIBancoUsuario{
