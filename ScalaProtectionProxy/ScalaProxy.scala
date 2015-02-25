@@ -8,6 +8,13 @@ import java.text.DateFormat
 import java.text.DateFormat._
 import java.math._
 
+trait ScalaIBancoUsuario{
+
+	def getNumeroUsuarios(): String
+	def getUsuariosConectados(): String
+	
+}
+
 class BancoUsuarios{
 	private var qtdUsuarios: Int = (Math.random() * 100).asInstanceOf[Int]
 	private var usuariosOn: Int = (Math.random() * 10).asInstanceOf[Int]
